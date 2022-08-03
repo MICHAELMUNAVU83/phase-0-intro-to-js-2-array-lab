@@ -1,3 +1,6 @@
+const {cats , removeFirstCat, removeLastCat,prependCat, destructivelyAppendCat ,appendCat, destructivelyPrependCat ,destructivelyRemoveFirstCat, destructivelyRemoveLastCat}   = require("../index.js");
+
+
 describe('index.js', function () {
   describe('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
